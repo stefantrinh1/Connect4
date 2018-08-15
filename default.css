@@ -1,0 +1,57 @@
+body{background-color: lightsteelblue;}
+
+.board{padding: 10px; margin:10px; align-items: center; border: blue solid 2px; background-color: #3c59ea }
+h1{text-align: center; font-family: sans-serif;}
+h2{text-align: center; font-family: sans-serif;}
+.board{margin-left: auto; margin-right: auto;}
+
+.board-screen{
+  display: none;
+  margin: 4% 0%
+}
+
+.replay-screen{
+  display: none;
+  margin: 4% 0%;
+}
+
+.board button {
+    width: 80px;
+    height: 80px;
+    background-color: gray;
+    border-radius: 50%;
+    border: 4px solid black; /*this gets rid of bootstrap shadow*/
+    margin: 1px;
+  }
+
+.player1{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 4px solid black; /*this gets rid of bootstrap shadow*/
+  margin: 1px;
+  background-color: yellow;}
+
+.player2{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 4px solid black; /*this gets rid of bootstrap shadow*/
+  margin: 1px;
+  background-color: red;}
+
+  
+  @media(max-width: 800px) {
+    .board button, .player1, .player2{
+      width: 70px;
+      height: 70px;
+    }
+  }
+
+  @media(max-width: 550px) {
+    .board button, .player1, .player2{
+      width: 50px;
+      height: 50px;
+    }
+  }
+
